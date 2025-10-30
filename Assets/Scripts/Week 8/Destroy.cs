@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class DestroyOnCollision : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
