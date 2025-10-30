@@ -1,4 +1,6 @@
 # GameEnginePractical3D
+Movement keys : A D
+Red cubes are cars and they are bad and green cubes are fuel and they are good
 
 State pattern
 
